@@ -1,6 +1,6 @@
 # Uladzislau Krus
 
-## Тел +48576534125 diskord: Vlados91
+## Tel +48576534125 diskord: Vlados91
 
 ## I want to become a professional Frontend developer. I have always been interested in the IT field, but have never tried myself in this direction. I always achieve my goals. Now my main goal is to reach the end.
 
@@ -20,3 +20,5 @@ assert.strictEqual(multiply(3,5), 15);
 ```
 
 ## Higher education, in the direction of Physical Education Coach
+
+## English:A2
