@@ -6,7 +6,7 @@
 
 ## My Skils: CSS, HTML, Avocode, Figma
 
-![](../I.jpg)
+![](I.jpg)
 
 ```
 describe("Multiply", () => {
