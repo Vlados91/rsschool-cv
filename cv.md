@@ -6,7 +6,7 @@
 
 ## My Skils: CSS, HTML, Avocode, Figma
 
-![](I.jpg)
+![](/rsschool-cv/assets/img/I.jpg)
 
 ```
 describe("Multiply", () => {
