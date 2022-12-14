@@ -1,7 +1,9 @@
-.body {
-  font-size: 70px;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-.imeg {
-  text-align: center;
+.body {
+  font-family: "Roboto", sans-serif;
+}
+.mein-header {
+  border: 1px solid red;
 }
