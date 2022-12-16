@@ -4,60 +4,122 @@
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>cv</title>
     <link rel="stylesheet" href="../rsschool-cv/stile.css" >
-    <link rel="icon" href="./assets/smile.ico" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link rel="stylesheet" href="../rsschool-cv/reset.css" >
+    <link type="image/x-icon" href="../rsschool-cv/assets/smile.ico" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=PT+Sans:ital,wght@0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Roboto:wght@100;300;500&display=swap"
       rel="stylesheet"
     >
+
+    <title>cv</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="main-header">
-        <div class="header_top">
-          <img src="./assets/img/I.jpg" class="image" alt="my photo" >
-          <div class="title-top">
-            <h1 class="title">Uladzislau Krus</h1>
-            <h2 class="title1">Contact</h2>
-            <ul class="list">
-              <li>tel: +48576534125</li>
-              <li>diskord: Vlados91</li>
-              <li>email: belvlad91@gmail.com</li>
-              <li>github: Vlados91</li>
-            </ul>
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <div class="header__image">
+              <img
+                class="imag1"
+                src="./assets/img/photo_2022-12-15_11-28-09.jpg"
+                alt="my foto"
+              >
+            </div>
+            <div class="header__body">
+              <div class="header__title">Uladzislau Krus</div>
+              <div class="header__subtitle">Frontend developer</div>
+            </div>
           </div>
         </div>
       </header>
-      <nav class="main-nav">
-        <div class="list-nav">
-          <ul class="list-nav1">
-            <li class="list-list">
-              I want to become a professional Frontend developer. I have always
-              been interested in the IT field, but have never tried myself in
-              this direction. I always achieve my goals. Now my main goal is to
-              reach the end.
-            </li>
-            <li class="list-list1">
-              My Skils: CSS, HTML, Avocode, Figma, Github
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <main class="main-main">
-        <p class="code">
-          describe("Multiply", () => { it("fixed tests", () => { <br >
-          assert.strictEqual(multiply(1,1), 1);<br >
-          assert.strictEqual(multiply(2,1), 2);<br >
-          assert.strictEqual(multiply(2,2), 4);<br >
-          assert.strictEqual(multiply(3,5), 15); }); });
-        </p>
-      </main>
-      <footer class="main-footer">
-        <div class="footer-footer">
-          <p>Higher education, in the direction of Physical Education Coach</p>
-          <p>English:A2</p>
+      <div class="content">
+        <main class="main">
+          <div class="container conteiner_main">
+            <div class="main__row">
+              <div class="main__flex-left">
+                <div class="contacts">
+                  <section class="section">
+                    <h2 class="subtitle1">Contacts</h2>
+                    <div class="title1">
+                      <ul class="list__title">
+                        <li>Tel +48576534125</li>
+                        <li>Diskord: Vlados91</li>
+                        <li>Ttelegram: @vladislavkrus</li>
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+                <div class="code">
+                  <section class="section">
+                    <h2 class="subtitle1">My code</h2>
+                    <h3 class="title1">
+                      describe("Multiply", () => { it("fixed tests", () => {
+                      assert.strictEqual(multiply(1,1), 1);
+                      assert.strictEqual(multiply(2,1), 2);
+                      assert.strictEqual(multiply(2,2), 4);
+                      assert.strictEqual(multiply(3,5), 15); }); });
+                    </h3>
+                  </section>
+                </div>
+                <div class="work experience">
+                  <section class="section">
+                    <h2 class="subtitle2">Work experience</h2>
+                    <h3 class="title1">
+                      Now I study at RS School in the direction of
+                      <a class="link" href="https://rs.school/js-stage0/"
+                        >Frontend</a
+                      >
+                    </h3>
+                  </section>
+                </div>
+              </div>
+              <div class="main__flex-right">
+                <div class="summary">
+                  <section class="section1">
+                    <h2 class="subtitle1">Summary</h2>
+                    <h3 class="title1">
+                      TI want to become a professional Frontend developer. I
+                      have always been interested in the IT field, but have
+                      never tried myself in this direction. I always achieve my
+                      goals. Now my main goal is to reach the end.
+                    </h3>
+                  </section>
+                </div>
+                <div class="my_skills">
+                  <section class="section1">
+                    <h2 class="subtitle1">My skills</h2>
+                    <h3 class="title1">CSS, HTML, Avocode, Figma</h3>
+                  </section>
+                </div>
+                <div class="education">
+                  <section class="section1">
+                    <h2 class="subtitle1">Education</h2>
+                    <h3 class="title1">
+                      Higher education, in the direction of Physical Education
+                      Coach Physical Education Coach Belarus Brest University.
+                      2009-2014 Landscape design courses 2015-2016
+                    </h3>
+                  </section>
+                </div>
+                <div class="english">
+                  <section class="section1">
+                    <h2 class="subtitle1">English</h2>
+                    <h3 class="title1">A2 English level (pre-intermediate)</h3>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__flexbox">
+            <p class="year">2022</p>
+          </div>
         </div>
       </footer>
     </div>

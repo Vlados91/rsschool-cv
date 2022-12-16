@@ -1,65 +1,117 @@
-* {
-  box-sizing: border-box;
-}
-html,
 body {
-  font-family: "Roboto", sans-serif;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  font-family: "Lato", sans-serif;
 }
+
 .wrapper {
   min-height: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: rgb(183, 208, 177);
 }
-
-.header_top {
-  display: flex;
-  max-width: 70%;
+.container {
+  max-width: 1180px;
   margin: 0 auto;
-  text-align: center;
-  justify-content: space-between;
-  padding-top: 30px;
 }
-.image {
-  width: 300px;
+.content {
+  flex: 1 1 auto;
+  margin: 0;
+  background-color: rgb(232, 235, 233);
 }
-.title {
-  font-size: 50px;
+.conteiner_main {
+  max-width: 100%;
+  margin: 0 auto;
 }
-.sub-title {
-  font-size: 35px;
+.header {
+  background-color: rgb(6, 6, 6);
 }
 
-.list {
-  text-align: left;
-  font-size: 30px;
-  width: 100%;
+.header__row {
+  display: flex;
+  justify-content: space-between;
 }
-.list li {
-  border-bottom: 4px solid rgb(74, 69, 50);
+
+.imag1 {
+  max-width: 350px;
 }
-.list-nav {
-  max-width: 70%;
-}
-.list-nav1 {
-  font-size: 20px;
+.header__body {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 30px;
+  letter-spacing: 5px;
 }
-.list-list {
-  padding-top: 40px;
+.header__title {
+  font-weight: 700;
+  color: rgb(249, 243, 243);
+  font-size: 80px;
 }
-.list-list1 {
-  padding-top: 20px;
+.header__subtitle {
+  color: rgb(219, 17, 17);
+  font-size: 45px;
+  font-style: italic;
 }
-.main-main {
-  flex: 1 1 auto;
+.main__row {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 0 50px;
 }
-.code {
-  padding-left: 20px;
+.main__flex-left {
+  padding-top: 8px;
+  line-height: 1.6;
 }
-.footer-footer {
-  text-align: center;
+.section {
+  padding: 0 50px 0 20px;
+}
+.subtitle1 {
+  font-size: 40px;
+  line-height: 3;
+}
+.subtitle2 {
+  font-size: 40px;
+  padding: 30px 0;
+}
+.title1 {
+  font-style: italic;
+  font-size: 20px;
+}
+.link {
+  color: rgb(209, 13, 43);
+}
+
+.footer {
+  background-color: rgb(34, 31, 31);
+}
+.footer__flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.year {
+  color: #fff;
+}
+.img1 {
+  height: 100%;
+}
+
+@media (max-width: 610px) {
+  .main__row {
+    flex-wrap: wrap;
+  }
+  .imag1 {
+    max-width: 50%;
+  }
+}
+@media (max-width: 780px) {
+  .header__title {
+    font-size: 25px;
+  }
+  .header__subtitle {
+    font-size: 20px;
+  }
+  .footer__text {
+    font-size: 20px;
+  }
 }
